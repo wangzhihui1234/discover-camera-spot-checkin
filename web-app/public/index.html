@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>发现机位 · 机位打卡</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="app-header"></div>
+
+    <div class="map-layout">
+      <div class="map-pane">
+        <div id="map-main"></div>
+        <div id="map-fallback" class="map-fallback" style="display: none">
+          <div>
+            <p><b>地图组件未能加载</b></p>
+            <p>右侧列表仍可正常浏览全部机位。</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="list-pane">
+        <div class="list-pane-head">
+          <h2>热门打卡机位</h2>
+          <p id="count-text">加载中…</p>
+        </div>
+        <div class="list-scroll" id="spot-list"></div>
+      </aside>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/auth.js"></script>
+    <script src="/js/layout.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

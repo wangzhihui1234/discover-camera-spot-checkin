@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>发布机位 · 机位打卡</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="app-header"></div>
+
+    <div class="wrap" style="max-width: 840px">
+      <h1 class="page-title">发布机位</h1>
+      <p class="page-desc">提交后进入待审核状态，管理员通过后其他用户才能在地图上看到。</p>
+
+      <div id="err" class="error-box" style="display: none"></div>
+
+      <div class="card" style="padding: 22px">
+        <div class="field">
+          <label>机位名称<span class="req">*</span></label>
+          <input id="name" class="input" placeholder="如：外滩万国建筑群观景台" />
+        </div>
+
+        <div class="field">
+          <label>城市<span class="req">*</span></label>
+          <input id="city" class="input" list="city-list" placeholder="如：上海" />
+          <datalist id="city-list"></datalist>
+        </div>
+
+        <div class="field">
+          <label>建议拍摄时间</label>
+          <input id="shootTime" class="input" placeholder="如：黄昏至夜晚 / 日出 / 全天" />
+        </div>
+
+        <div class="field">
+          <label>机位位置<span class="req">*</span></label>
+          <div
+            id="map-pick"
+            style="height: 280px; border-radius: 10px; overflow: hidden; border: 1px solid #e6e9f0"
+          ></div>
+          <div id="pick-info" style="margin-top: 8px; color: #6b7280; font-size: 13px">
+            在地图上点击，选择机位所在位置
+          </div>
+          <div id="map-tip" class="hint" style="display: none; margin-top: 8px">
+            地图组件未加载，请手动填写下方「详细地址」，但位置坐标仍需在地图上选择。
+          </div>
+          <button class="btn btn-sm" id="use-location" style="margin-top: 8px">使用我的当前位置</button>
+        </div>
+
+        <div class="field">
+          <label>详细地址</label>
+          <input id="address" class="input" placeholder="如：中山东一路" />
+        </div>
+
+        <div class="field">
+          <label>攻略描述</label>
+          <textarea
+            id="description"
+            class="textarea"
+            placeholder="分享机位特点、最佳拍摄时间、构图建议等"
+          ></textarea>
+        </div>
+
+        <div class="field">
+          <label>风格标签</label>
+          <div id="tags" class="chips"></div>
+        </div>
+
+        <div class="field">
+          <label>图片（最多 9 张）</label>
+          <div id="uploader" class="uploader"></div>
+          <input id="file-input" type="file" accept="image/*" multiple style="display: none" />
+        </div>
+
+        <button id="submit" class="btn btn-primary" style="width: 100%; padding: 12px">
+          提交审核
+        </button>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/auth.js"></script>
+    <script src="/js/layout.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="/js/publish.js"></script>
+  </body>
+</html>

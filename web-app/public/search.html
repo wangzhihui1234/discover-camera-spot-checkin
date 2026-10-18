@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>搜索机位 · 机位打卡</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="app-header"></div>
+
+    <div class="wrap">
+      <h1 class="page-title">搜索机位</h1>
+      <p class="page-desc">支持按机位名称、地址、攻略内容搜索，可叠加城市与风格标签筛选。</p>
+
+      <div class="card" style="padding: 16px; margin-bottom: 20px">
+        <div style="display: flex; gap: 10px; flex-wrap: wrap">
+          <input
+            id="keyword"
+            class="input"
+            style="flex: 1; min-width: 220px"
+            placeholder="搜索机位名称 / 地址 / 攻略"
+          />
+          <select id="city" class="select" style="width: 150px">
+            <option value="">全部城市</option>
+          </select>
+          <button id="search-btn" class="btn btn-primary">搜索</button>
+        </div>
+        <div id="tags" class="chips" style="margin-top: 14px"></div>
+      </div>
+
+      <p id="result-info" class="page-desc">加载中…</p>
+      <div id="results" class="grid"></div>
+    </div>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/auth.js"></script>
+    <script src="/js/layout.js"></script>
+    <script src="/js/search.js"></script>
+  </body>
+</html>

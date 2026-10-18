@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "secret": "dfaef238670cdf07733af66ca69a225d507c79274010460aba9c95e687067821",
+  "users": [
+    {
+      "id": 1,
+      "username": "wertyuio",
+      "salt": "1a330c993bf1086c43a9762c53f3e15a",
+      "passwordHash": "d13c91eaf390abee4aff4b172a78649ccd43e819535ef281fc7210ab389e841b",
+      "nickname": "wertyuio",
+      "avatar": "",
+      "bio": "",
+      "role": 1,
+      "status": 1,
+      "createdAt": "2026-10-18T03:18:22.420Z"
+    }
+  ],
+  "spots": [
+    {
+      "id": 1,
+      "userId": 0,
+      "name": "外滩万国建筑群观景台",
+      "city": "上海",
+      "latitude": 31.24,
+      "longitude": 121.4903,
+      "address": "中山东一路",
+      "description": "站在外滩看对岸只是一半，真正出片的是蓝调时刻拍这一侧的万国建筑群：海关大楼钟楼、浦发银行大楼穹顶、和平饭店一字排开，江面上还有游船划过。建议日落后 20 分钟开拍，天空呈钴蓝色、建筑灯光已亮，冷暖对比最漂亮。",
+      "shootTime": "日落后 20 分钟（蓝调时刻）",
+      "coverUrl": "/images/seed/waitan.jpg",
+      "media": [
+        {
+          "type": 1,
+          "url": "/images/seed/waitan.jpg",
+          "sort": 0
+        }
+      ],
+      "tagIds": [
+        5,
+        6
+      ],
+      "status": 1,
+      "rejectReason": "",
+      "isOfficial": 1,
+      "viewCount": 3,
+      "likeCount": 0,
+      "favoriteCount": 0,
+      "commentCount": 0,
+      "createdAt": "2026-10-18T03:09:57.121Z",
+      "updatedAt": "2026-10-18T03:09:57.121Z"
+    },
+    {
+      "id": 2,
+      "userId": 0,
+      "name": "故宫角楼",
+      "city": "北京",
+      "latitude": 39.9144,
+      "longitude": 116.397,
+      "address": "景山前街",
+      "description": "护城河畔拍角楼是经典机位，关键在对称构图与倒影。人像建议站在河沿石栏旁，让角楼落在画面左上或右上三分之一处；清晨与日落光线最柔，无风时水面倒影完整。",
+      "shootTime": "日出 / 日落（无风时倒影最佳）",
+      "coverUrl": "/images/seed/gugong-jiaolou.png",
+      "media": [
+        {
+          "type": 1,
+          "url": "/images/seed/gugong-jiaolou.png",
+          "sort": 0
+        }
+      ],
+      "tagIds": [
+        5,
+        1
+      ],
+      "status": 1,
+      "rejectReason": "",
+      "isOfficial": 1,
+      "viewCount": 2,
+      "likeCount": 0,
+      "favoriteCount": 0,
+      "commentCount": 0,
+      "createdAt": "2026-10-18T03:09:57.121Z",
+      "updatedAt": "2026-10-18T03:09:57.121Z"
+    },
+    {
+      "id": 3,
+      "userId": 0,
+      "name": "广州塔·花城广场",
+      "city": "广州",
+      "latitude": 23.1066,
+      "longitude": 113.3245,
+      "address": "花城广场",
+      "description": "花城广场的水池边是拍广州塔的最佳前景：用池水做倒影，左右两侧是珠江新城双塔（西塔、东塔），画面非常满。建议 19:30 后灯全开，长曝光 2-4 秒把水面拍平。",
+      "shootTime": "夜晚（19:30 后灯光全开）",
+      "coverUrl": "/images/seed/guangzhou-tower.jpg",
+      "media": [
+        {
+          "type": 1,
+          "url": "/images/seed/guangzhou-tower.jpg",
+          "sort": 0
+        }
+      ],
+      "tagIds": [
+        6,
+        2
+      ],
+      "status": 1,
+      "rejectReason": "",
+      "isOfficial": 1,
+      "viewCount": 1,
+      "likeCount": 0,
+      "favoriteCount": 0,
+      "commentCount": 0,
+      "createdAt": "2026-10-18T03:09:57.121Z",
+      "updatedAt": "2026-10-18T03:09:57.121Z"
+    },
+    {
+      "id": 4,
+      "userId": 0,
+      "name": "深圳湾公园",
+      "city": "深圳",
+      "latitude": 22.5374,
+      "longitude": 114.1063,
+      "address": "滨海大道",
+      "description": "退潮时走到乱石滩上，左边是深圳湾大桥方向的长桥，右侧是城市天际线，日落时分天空层次非常丰富。人站在石滩上做剪影，或者只拍环境和云，都不会出错。",
+      "shootTime": "日落（退潮时段）",
+      "coverUrl": "/images/seed/shenzhen-bay.png",
+      "media": [
+        {
+          "type": 1,
+          "url": "/images/seed/shenzhen-bay.png",
+          "sort": 0
+        }
+      ],
+      "tagIds": [
+        4,
+        6
+      ],
+      "status": 1,
+      "rejectReason": "",
+      "isOfficial": 1,
+      "viewCount": 1,
+      "likeCount": 0,
+      "favoriteCount": 0,
+      "commentCount": 0,
+      "createdAt": "2026-10-18T03:09:57.121Z",
+      "updatedAt": "2026-10-18T03:09:57.121Z"
+    },
+    {
+      "id": 5,
+      "userId": 0,
+      "name": "西湖·集贤亭",
+      "city": "杭州",
+      "latitude": 30.2489,
+      "longitude": 120.1552,
+      "address": "湖滨路（一公园湖边）",
+      "description": "湖滨一带的湖中亭，用垂柳做前景框住亭子，远处是连绵山影。阴雨天反而更出片：天色灰蓝、湖面起浪，配上湿漉漉的石板路，是很典型的江南烟雨感。",
+      "shootTime": "清晨或阴雨天",
+      "coverUrl": "/images/seed/xihu.png",
+      "media": [
+        {
+          "type": 1,
+          "url": "/images/seed/xihu.png",
+          "sort": 0
+        }
+      ],
+      "tagIds": [
+        1,
+        5
+      ],
+      "status": 1,
+      "rejectReason": "",
+      "isOfficial": 1,
+      "viewCount": 1,
+      "likeCount": 0,
+      "favoriteCount": 0,
+      "commentCount": 0,
+      "createdAt": "2026-10-18T03:09:57.121Z",
+      "updatedAt": "2026-10-18T03:09:57.121Z"
+    },
+    {
+      "id": 6,
+      "userId": 0,
+      "name": "成都太古里",
+      "city": "成都",
+      "latitude": 30.653,
+      "longitude": 104.083,
+      "address": "中纱帽街（近春熙路站）",
+      "description": "太古里的挑高玻璃楼与川西风格黑瓦坡屋顶混搭，是现代与传统的对撞。地铁春熙路站 C 口出来往大慈寺方向走，找那根黑色艺术立柱当前景，人形走过时抓拍最有氛围。",
+      "shootTime": "全天（傍晚灯光与天色叠加更好）",
+      "coverUrl": "/images/seed/chengdu-taikooli.png",
+      "media": [
+        {
+          "type": 1,
+          "url": "/images/seed/chengdu-taikooli.png",
+          "sort": 0
+        }
+      ],
+      "tagIds": [
+        3,
+        5
+      ],
+      "status": 1,
+      "rejectReason": "",
+      "isOfficial": 1,
+      "viewCount": 1,
+      "likeCount": 0,
+      "favoriteCount": 0,
+      "commentCount": 0,
+      "createdAt": "2026-10-18T03:09:57.121Z",
+      "updatedAt": "2026-10-18T03:09:57.121Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "人像",
+      "sort": 1
+    },
+    {
+      "id": 2,
+      "name": "夜景",
+      "sort": 2
+    },
+    {
+      "id": 3,
+      "name": "街拍",
+      "sort": 3
+    },
+    {
+      "id": 4,
+      "name": "日落",
+      "sort": 4
+    },
+    {
+      "id": 5,
+      "name": "建筑",
+      "sort": 5
+    },
+    {
+      "id": 6,
+      "name": "城市天际线",
+      "sort": 6
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "上海",
+      "sort": 1
+    },
+    {
+      "id": 2,
+      "name": "北京",
+      "sort": 2
+    },
+    {
+      "id": 3,
+      "name": "广州",
+      "sort": 3
+    },
+    {
+      "id": 4,
+      "name": "深圳",
+      "sort": 4
+    },
+    {
+      "id": 5,
+      "name": "杭州",
+      "sort": 5
+    },
+    {
+      "id": 6,
+      "name": "成都",
+      "sort": 6
+    },
+    {
+      "id": 7,
+      "name": "重庆",
+      "sort": 7
+    },
+    {
+      "id": 8,
+      "name": "西安",
+      "sort": 8
+    },
+    {
+      "id": 9,
+      "name": "南京",
+      "sort": 9
+    },
+    {
+      "id": 10,
+      "name": "武汉",
+      "sort": 10
+    }
+  ],
+  "likes": [],
+  "favorites": [],
+  "comments": []
+}
